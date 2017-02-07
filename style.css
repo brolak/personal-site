@@ -1,10 +1,9 @@
-.top-pic{
-	width:100%;
-	position: absolute;
-    left: 0px;
-    top: 8.5em;
-    z-index: -1;
+body{
+	margin:0;
+	background-color: white;
+	font-family: "Open Sans",sans-serif;
 }
+
 nav{
 	position: fixed;
 	top:0px;
@@ -13,22 +12,20 @@ nav{
 	height: 8.5em;
 	background-color:#CF3116;
 }
-body{
-	background-color: white;
-	font-family: "Open Sans",sans-serif;
-}
 
-ul {
+nav ul {
     list-style-type: none;
     margin-top: 2%;
     padding: 0;
 }
-li{
+
+nav li{
 	padding: 3% 0 0 3%;
 	display:inline-block;
 	font-size: 300%;
 	color: #CF3116;
 }
+
 li a:link, li a:visited {
 	border: 2px #CF3116 solid;
 	text-decoration: none;
@@ -46,14 +43,43 @@ li a:hover, li a:active{
 	display: inline;
 	width: 100%;
 }
-.projects{
-	display: inline;
-	width = 90%;
-	background-color: white;
-    list-style-type: none;
-    margin-top: 20 em;
-    padding: 0;
+
+.top-pic{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: url("http://www.planwallpaper.com/static/images/Orange-background.png") no-repeat center fixed;
+  background-size: cover;
+  height: 500px;
 }
-h1{
-	margin:auto;
+
+.projects{
+	display: inline-block;
+	width: 100%;
+	background-color: #CF3116;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  color:#FEA816;
+}
+
+h3{
+	color:#FEA816;
+}
+.column{
+	margin: auto;
+  float: left;
+  width: 33.333%;
+}
+
+.padding{
+	padding: 7%;
+}
+
+.project img{
+	width:100%;
 }
